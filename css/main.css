@@ -1,0 +1,107 @@
+body {
+
+  direction: ltr;
+  text-align: right;
+  overflow-x: hidden;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+div.box{
+  padding: 1rem;
+  border: 2px solid gray;
+  border-radius: .5rem;
+  -webkit-border-radius: .5rem;
+  -moz-border-radius: .5rem;
+  -ms-border-radius: .5rem;
+  -o-border-radius: .5rem;
+  box-shadow: 0 0 10px gray;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: white;
+  width: 20rem;
+  overflow: hidden;
+}
+
+div.box button{
+  padding: .5rem 1rem;
+  border: none;
+  border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  font-weight: bold;
+  background-color: gray;
+  color: white;
+  box-shadow: 0 0 10px rgba(128, 128, 128, 0.63);
+  transition:.2s all ease ;
+  -webkit-transition:.2s all ease ;
+  -moz-transition:.2s all ease ;
+  -ms-transition:.2s all ease ;
+  -o-transition:.2s all ease ;
+  width: 16rem;
+  height: 2.5rem;
+}
+div.box button:hover{
+   background-color: rgb(102, 102, 102);
+}
+
+div.box div.img{
+  width: 100%;
+  height: 20rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(128, 128, 128, 0.19);
+  margin-top: 1rem;
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+  border: 1px solid gray;
+}
+
+div.box div.img img{
+
+  display: none;
+  opacity: 0;
+}
+
+div.box div.img svg{
+  font-size: 3rem;
+  color: white;
+}
+
+div.box div.name{
+  padding: 0 .5rem;
+  width: 100%;
+  overflow: scroll;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 2rem;
+  border: 1px solid gray;
+  margin-right: 1rem;
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+}
+
+div.box div.name h3{
+  font-size: 1.1rem;
+
+  font-weight: bold;
+}
+div.container{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+}
