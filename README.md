@@ -5,7 +5,7 @@
 
 ## Description
 
-This JavaScript file (`imageDisplayHandler.js`) provides functionality for handling image selection and display within an HTML document. It includes event listeners for a button click, triggering a file input, and dynamically updating the UI to display the selected image.
+This JavaScript file (`main.js`) provides functionality for handling image selection and display within an HTML document. It includes event listeners for a button click, triggering a file input, and dynamically updating the UI to display the selected image.
 
 ## Table of Contents
 
